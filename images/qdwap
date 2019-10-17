@@ -1,0 +1,68 @@
+@charset "gb2312";
+
+*{margin:0;padding:0}
+html,body,#page { height:100%;font-family: 微软雅黑;}
+body {background:#856D35;font-family:Helvetica,Arial,san-serif;font-size:16px;}
+a,a:visited { text-decoration:none;}
+ul,ol,li { list-style:none;}
+.fl{float:left}.fr{float:right}
+.clearfix {display: inline-block;}
+html,body,header,nav,footer,article,p,div,ul,ol,li,h1,h2,h3,h4,h5,h6 {-webkit-text-size-adjust:none;} /*改变文字大小*/
+-webkit-tap-highlight-color:{rgba(0,0,0,0);}
+-moz-tap-highlight-color:{rgba(0,0,0,0);}/*链接高亮*/
+img{border:0 none;vertical-align:middle;}
+/*add set*/
+*,*:after,*:before { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+article,#content{text-shadow:0 1px 0 #fff;}
+
+h1{font-size:24px}
+
+#page {max-width:750px;margin:0 auto;padding-bottom:50px;height:auto;min-height:100%;background:#f9f9f9; }
+header {margin:0 auto;width:100%;text-align:center; line-height:40px; height:40px; background:#000;color:#fff; white-space:nowrap; overflow:hidden; border-top:1px solid #333}
+header h1 {margin:0 auto;font-size:1.2em;}
+
+nav {margin:0 auto;width:100%;position:fixed; left:0; bottom:0;-webkit-animation:fadeInUpBig 1s 0.2s ease both;-moz-animation:fadeInUpBig 1s 0.2s ease both;}
+nav ul {margin:0 auto;height:45px; width:100%; background:#e30; overflow:hidden;}
+nav ul li {width:33.3%; float:left; text-align:center;}
+
+nav ul {position:relative;}
+nav ul li:last-child a {border-right:0px;}
+nav ul li a{color:#fff;font-size:14px; border-right:1px dotted #f66;display:inline; position: inherit;font-weight:normal;padding-left:32px; line-height:45px;}
+nav ul li:nth-child(1) a{background:url("call.png"/*tpa=http://ydx.welltui1.com/css/call.png*/) left center no-repeat; background-size: 28px 28px;}
+nav ul li:nth-child(2) a{background:url("home.png"/*tpa=http://ydx.welltui1.com/css/home.png*/) left center no-repeat; background-size: 28px 28px;}
+nav ul li:nth-child(3) a{background:url("qq.png"/*tpa=http://ydx.welltui1.com/css/qq.png*/) left center no-repeat; background-size: 16px 16px;}
+
+.openwx{
+border:solid 1px #da7c0c;color:#fff;
+background:-webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+zoom: 1;
+font-size: 20px;
+font-weight: bold;
+padding: .3em 1em .3em;
+text-shadow: 0 1px 1px rgba(0,0,0,.3);
+-webkit-border-radius: .5em;
+-moz-border-radius: .5em;
+border-radius: .5em;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+box-shadow: 0 1px 2px rgba(0,0,0,.2);
+margin:5px 0 10px 0;;
+}
+
+.dbtn{padding:5px}
+.showcontent {height:auto;overflow:hidden;width:100%; margin:0 auto;line-height:24px;font-size:1.0em;-webkit-animation:bounceInkeep .3s .2s linear both;-moz-animation:bounceInkeep .3s .2s linear both;}
+.showcontent .btn{background:#ff5600 10% 50%/32px 32px no-repeat;display:block;width:100%;margin:5px 0; text-align:center;color:#fff;text-shadow:1px 1px 1px #333;border-radius:6px;padding:10px;}
+.showcontent h2{background:#EEE9E6;color:#6C594D;font-size:18px; line-height:30px; padding:0 10px;width:100%; clear:both; text-align:left;}
+.showcontent h2:before{content:"▼";color:#948157;}
+.showcontent img {border:none;text-align:center;width:auto;max-width:100%;float:left;}
+.showcontent p{margin:5px; clear:both}
+
+.showcontent a[href^="tel:"]{background-image:url("call.png"/*tpa=http://ydx.welltui1.com/css/call.png*/);}
+.showcontent .wx{background-image:url("sms.png"/*tpa=http://ydx.welltui1.com/css/sms.png*/);}
+.showcontent .qq{background-image:url("qq.png"/*tpa=http://ydx.welltui1.com/css/qq.png*/);background-size: 24px 24px}
+
+
+footer {margin:0px auto 0;clear:both;border-top:1px solid #ddd; text-align:center}
+footer p {font-size:1em;border-top:1px solid #fff; padding-top:5px;}
+footer p img {max-width:98%;margin:0 auto;}
+footer dl{margin-bottom:10px}
